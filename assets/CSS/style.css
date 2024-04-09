@@ -1,0 +1,105 @@
+/*Caracteristicas del titulo y subtitulo inicial*/
+.titulo1 {
+  font-size: 5em;
+  color: rgb( 117, 84, 55);
+  text-align: center;
+  margin-top: 0;
+}
+.subtitulo {
+  font-size: 2em;
+  color:#616161;
+  text-align: center;
+}
+
+/*Caracteristicas de fondo del header*/
+.header{
+  background-image: url("../IMG/Header.png");
+  position: relative;
+  width: auto;
+  height: 10rem;
+  padding: 5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Anade fondo blanco con opacidad atras del titulo y subtitulo y sobre la imagen del header */
+.fondo2 {
+  background-color: white;
+  opacity: 0.8;
+  margin: 0;
+  padding-right: 1rem;
+  margin-right: 1rem;
+}
+
+/*Caracteristicas del fondo del main*/
+.main{
+  background-image: url("../IMG/Fondo.jpg");
+  background-size: cover;
+  margin: 0;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/*Hace que los videos y descripciones partan al centro y no sin margen*/
+.relleno {
+  margin: 0% 20% 0% 20%;
+}
+
+/*Anade flexbox para que queden las caracteristicas al lado derecho del video/imagen*/
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*Caracteristicas de nombres de cada miembro*/
+.nombre_miembro {
+  font-weight: bold;
+  color: blueviolet;
+  font-style: italic;
+}
+
+/*Caracteristicas de las descripciones de cada miembro*/
+.descripcion {
+  text-align: justify;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  padding-right: 1rem;
+}
+
+/*Agrupar imagenes/videos con mismo ancho y un alto maximo*/
+#imagenes {
+  width:450px;
+  max-height: 350px;
+}
+
+/*Anade el fondo blanco detras de cada descripcion y nombre de miembro para mayor claridad sobre la imagen*/
+.fondo {
+  background-color: white;
+  opacity: 0.8;
+  margin: 0;
+  padding-right: 1rem;
+  margin-right: 1rem;
+  border: 1px solid pink;
+}
+
+/*Caracteristicas del footer*/
+.footer {
+  background-color: rgb( 117, 84, 55);
+  color: bisque;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*Da caracteristicas de flexbox y que quede ordenado en columna*/
+.flex2 {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
